@@ -1,33 +1,24 @@
-========
-Usage
-========
+1. Test File 1 Main
+=============
 
-To use this template, simply update it::
+Inline math examples: :math:`\color{blue}{\sigma_{1}}` equals :math:`\colorbox{yellow}{\sigma_{2}}` then etc, etc.
 
-	import read-the-docs-template
+Any text.
 
-math.rst::
+.. math::
+ x^2+y^2=1
+ :label: eq_a
 
-        .. role:: raw-latex(raw)
-            :format: latex html
+Math block example with label:
 
-        .. raw:: html
+.. math::
+ e^{i\pi} + 1 = 0
+ :label: eq_b
 
-           <script type="text/javascript" src="http://localhost/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
-        This: :raw-latex:`\((x+a)^3\)`
+1.1 Some Examples
+****************
 
-        this: :raw-latex:`\(W \approx \sum{f(x_k) \Delta x}\)`
-
-        this: :raw-latex:`\(W = \int_{a}^{b}{f(x) dx}\)`
-
-        and this:
-
-        .. raw:: latex html
-
-           \[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =
-           1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
-           {1+\frac{e^{-8\pi}} {1+\ldots} } } } \]
-
-        When :raw-latex:`\(a \ne 0\)`, there are two solutions to :raw-latex:`\(ax^2 + bx + c = 0\)` and they are
-        :raw-latex:`\(x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\)`
+.. math::
+ \color{red}{x^2}+y^2=3
+ :label: eq_c
