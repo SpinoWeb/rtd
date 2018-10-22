@@ -1,9 +1,10 @@
 1. Test File 1 Main
 =============
 
-Inline math examples: :math:`\color{blue}{\sigma_{1}}` equals :math:`\colorbox{yellow}{\sigma_{2}}` then etc, etc.
+Inline math examples: :math:'\color{blue}{\sigma_{1}}' equals :math:`\colorbox{yellow}{\sigma_{2}}` then etc, etc.
 
-Any text.
+.. math::
+  W^{3\beta}_{\delta_1 \rho_1 \sigma_2} \approx U^{3\beta}_{\delta_1 \rho_1}
 
 .. math::
  x^2+y^2=1
