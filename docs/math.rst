@@ -1,25 +1,18 @@
-1. Test File 1 Main
-=============
+Math
+====
 
-Inline math examples: :math:'\color{blue}{\sigma_{1}}' equals :math:`\colorbox{yellow}{\sigma_{2}}` then etc, etc.
-
-.. math::
-  W^{3\beta}_{\delta_1 \rho_1 \sigma_2} \approx U^{3\beta}_{\delta_1 \rho_1}
-
-.. math::
- x^2+y^2=1
- :label: eq_a
-
-Math block example with label:
+This is a test. Here is an equation:
+:math:`X_{0:5} = (X_0, X_1, X_2, X_3, X_4)`.
+Here is another:
 
 .. math::
- e^{i\pi} + 1 = 0
- :label: eq_b
+    :label: This is a label
 
+    \nabla^2 f =
+    \frac{1}{r^2} \frac{\partial}{\partial r}
+    \left( r^2 \frac{\partial f}{\partial r} \right) +
+    \frac{1}{r^2 \sin \theta} \frac{\partial f}{\partial \theta}
+    \left( \sin \theta \, \frac{\partial f}{\partial \theta} \right) +
+    \frac{1}{r^2 \sin^2\theta} \frac{\partial^2 f}{\partial \phi^2}
 
-1.1 Some Examples
-****************
-
-.. math::
- \color{red}{x^2}+y^2=3
- :label: eq_c
+You can add a link to equations like the one above :eq:`This is a label` by using ``:eq:``.
