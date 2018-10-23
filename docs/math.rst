@@ -10,7 +10,7 @@ This is a test. Here is an equation:
 Here is another:
 
 .. math::
-    :label: This is a label
+    :label: l22
 
     \nabla^2 f =
     \frac{1}{r^2} \frac{\partial}{\partial r}
@@ -18,10 +18,8 @@ Here is another:
     \frac{1}{r^2 \sin \theta} \frac{\partial f}{\partial \theta}
     \left( \sin \theta \, \frac{\partial f}{\partial \theta} \right) +
     \frac{1}{r^2 \sin^2\theta} \frac{\partial^2 f}{\partial \phi^2}
-    
-    :label: l22
 
-You can add :eq:`l22` a link to equations like the one above :eq:`This is a label` by using ``:eq:``.
+You can add a link to equations like the one above :eq:`l22` by using ``:eq:``.
 
 
 MathJax
