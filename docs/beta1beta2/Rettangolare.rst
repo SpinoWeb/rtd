@@ -45,6 +45,8 @@ You can add a link to equations like the one above :eq:`l2` by using ``:eq:``.
     \left( \sin \theta \, \frac{\partial f}{\partial \theta} \right) +
     \frac{1}{r^2 \sin^2\theta} \frac{\partial^2 f}{\partial \phi^2}
 
+ciao
+
 MathJax
 =======
 
