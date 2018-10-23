@@ -1,5 +1,5 @@
-Math
-====
+Sezione Rettangolare
+====================
 
 .. image:: img/R1.png
 
