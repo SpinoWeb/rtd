@@ -1,6 +1,8 @@
 Math
 ====
 
+If :math:`\sigma_{1}` equals :math:`\sigma_{2}` then etc, etc.
+
 This is a test. Here is an equation:
 :math:`X_{0:5} = (X_0, X_1, X_2, X_3, X_4)`.
 Here is another:
