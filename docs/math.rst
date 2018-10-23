@@ -1,7 +1,7 @@
 Math
 ====
 
-.. image:: img/R1.png
+.. image:: _static/R1.png
 
 If :math:`\sigma_{1}` equals :math:`\sigma_{2}` then etc, etc.
 
