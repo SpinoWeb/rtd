@@ -6,25 +6,29 @@ Il legame costitutivo per il calcestruzzo in compressione è generato mediante l
     ed una lineare sino al raggiungimento del valore di tensione ultima del materiale :math:`f_{cu} \leq f_{c0}` e quindi di deformazione corrispondente :math:`\varepsilon_{cu}`.
 Pertanto, nel seguito, si distingueranno i due casi (a) e (b).
 
+(a) :math:\varepsilon_{ct} / \varepsilon_{c0} \leq 1`
+
 .. image:: img/R1.png
 
-If :math:`\sigma_{1}` equals :math:`\sigma_{2}` then etc, etc.
+Indicando con:
+:math:`f_{c0}` la tensione massima nel calcestruzzo
+:math:`\varepsilon_{c0}` la corrispondente deformazione
+:math:`\sigma_c` e :math:`\varepsilon_c` la tensione e la deformazione in compressione del calcestruzzo
 
-This is a test. Here is an equation:
-:math:`X_{0:5} = (X_0, X_1, X_2, X_3, X_4)`.
-Here is another:
+l'equazione della parabola di Hognestad si scrive:
+.. math::
+    :label: l1
+
+    \sigma_c (\varepsilon_c) / f_{c0} = 2 ~ ( \varepsilon_c / \varepsilon_{c0} ) - ( \varepsilon_c / \varepsilon_{c0} )^2
+
+Introducendo i seguenti termini adimensionali di tensione e deformazione: :math:`s_c = \sigma_c / f_{c0}` e :math:`e_c = \varepsilon_c / \varepsilon_{c0}`, l'equazione adimensionale del ramo di parabola diventa:
 
 .. math::
-    :label: l22
+    :label: l2
 
-    \nabla^2 f =
-    \frac{1}{r^2} \frac{\partial}{\partial r}
-    \left( r^2 \frac{\partial f}{\partial r} \right) +
-    \frac{1}{r^2 \sin \theta} \frac{\partial f}{\partial \theta}
-    \left( \sin \theta \, \frac{\partial f}{\partial \theta} \right) +
-    \frac{1}{r^2 \sin^2\theta} \frac{\partial^2 f}{\partial \phi^2}
+    s_c (e_c) = 2 ~ e_c - e_c^2
 
-You can add a link to equations like the one above :eq:`l22` by using ``:eq:``.
+#You can add a link to equations like the one above :eq:`l22` by using ``:eq:``.
 
 
 MathJax
