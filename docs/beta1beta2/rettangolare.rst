@@ -16,6 +16,7 @@ Indicando con:
 :math:`\sigma_c` e :math:`\varepsilon_c` la tensione e la deformazione in compressione del calcestruzzo
 
 l'equazione della parabola di Hognestad si scrive:
+
 .. math::
     :label: l1
 
@@ -30,6 +31,15 @@ Introducendo i seguenti termini adimensionali di tensione e deformazione: :math:
 
 #You can add a link to equations like the one above :eq:`l22` by using ``:eq:``.
 
+.. math::
+    :label: l22
+
+    \nabla^2 f =
+    \frac{1}{r^2} \frac{\partial}{\partial r}
+    \left( r^2 \frac{\partial f}{\partial r} \right) +
+    \frac{1}{r^2 \sin \theta} \frac{\partial f}{\partial \theta}
+    \left( \sin \theta \, \frac{\partial f}{\partial \theta} \right) +
+    \frac{1}{r^2 \sin^2\theta} \frac{\partial^2 f}{\partial \phi^2}
 
 MathJax
 =======
