@@ -11,4 +11,3 @@ Table of Contents
    :maxdepth: 2
 
    Rettangolare
-   T
