@@ -11,4 +11,4 @@ Contenuti
    :maxdepth: 2
 
    Rettangolare
-   Rettangolare
+   T
