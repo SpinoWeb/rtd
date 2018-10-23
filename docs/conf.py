@@ -38,10 +38,10 @@ else:
    # NOTE - THIS IS A QUICK AND DIRTY SOLUTION
    #        PUT A COPY OF plantuml.jar IN THE ../utils FOLDER
    #        WHERE THE PATH IS RELATIVE TO THE make FILE LOCATION.
-   plantuml = 'java -jar ../utils/plantuml.jar'
+   #plantuml = 'java -jar ../utils/plantuml.jar'
    
    import sphinx_bootstrap_theme
-
+#
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -130,8 +130,8 @@ else:
    html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
    html_theme = 'bootstrap'
    html_theme_options = {
-						  'bootswatch_theme': "",
-						  }
+				'bootswatch_theme': "",
+			}
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
