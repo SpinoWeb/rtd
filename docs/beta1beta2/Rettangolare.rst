@@ -40,7 +40,12 @@ You can add a link to equations like the one above :eq:`R1` by using ``:eq:``.
 
 Al fine di esprimere la tensione in funzione della distanza dall'asse neutro :math:`(y)`, si opera una trasformazione di variabili. Indicando con :math:`e_{ct}` la deformazione di compressione adimensionalizzata della fibra di bordo, si pone: :math:`e_c (y) = e_{ct} ~ (y / x)`.
 
-L'espressione della tensione del calcestruzzo adimensionalizzata diventa: :math:`s_c (y) = 2 ~ [e_{ct} ~ (y / x)] - [e_{ct} ~ (y / x)]^2`
+L'espressione della tensione del calcestruzzo adimensionalizzata diventa:
+
+.. math::
+    :label: R3
+
+    s_c (y) = 2 ~ [e_{ct} ~ \fracyx] - [e_{ct} ~ \fracyx]^2
 
 
 
