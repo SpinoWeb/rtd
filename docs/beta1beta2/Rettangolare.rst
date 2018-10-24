@@ -72,12 +72,13 @@ essendo :math:`y_G / x` l'ascissa del baricentro del diagramma delle tensioni, a
     \frac{1}{x}
     \frac{ \int_0^x s_c(y) y \,dy }{ \int_0^x s_c(y) \,dy }
     
-Sostituendo la :eq:`R3` nella :eq:`R6` e risolvendo gli integrali definiti, si ottiene l'espressione di :math:`y_G / x` la quale, a sua volta, può essere inserita in quella del coefficiente :math:`\beta_{2}`, ottenendo:
+Sostituendo la :eq:`R3` nella :eq:`R6` e risolvendo gli integrali definiti, si ottiene l'espressione di :math:`y_G / x` la quale consente di calcolare il coefficiente :math:`\beta_{2}`:
 
 .. math::
     :label: R7
 
-    \beta_2 = 
+    \beta_2 =
+    1 - y_G / x =
     \frac{ e_{ct} - 4 } { 4 ~ ( e_{ct} - 3) }
 
 b) :math:`\varepsilon_{ct} / \varepsilon_{c0} > 1`
