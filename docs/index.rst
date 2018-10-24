@@ -2,8 +2,8 @@
 Calcolazioni
 ############
 
-MathJax is an open-source JavaScript display engine for LaTeX,
-MathML, and AsciiMath notation that works in all modern browsers.
+Calcolazioni è..,
+Calcolazioni è...
 
 .. toctree::
     :caption: Basic Usage
@@ -12,7 +12,7 @@ MathML, and AsciiMath notation that works in all modern browsers.
     What is MathJax? <mathjax>
     
 .. toctree::
-    :caption: Coefficienti :math:`\beta_{1}` e :math:`\beta_{2}`
+    :caption: Coefficienti beta
     :maxdepth: 2
     
     :math:`\beta_{1}` e :math:`\beta_{2} <beta1beta2/index>
