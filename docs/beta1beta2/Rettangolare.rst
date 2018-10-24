@@ -55,7 +55,7 @@ Il coefficiente di riempimento :math:`\beta_{1}` è quindi definito come il rapp
     \beta_1 =
     \frac{1}{x} \int_0^x s_c(y) \,dy
     
-Sostituendo l'espressione di :math:`s_{c} (y)` e risolvendo l'integrale definito, si ottiene il coefficiente di riempimento in funzione di :math:`e_{ct}`: $$ \beta_1 = e_{ct} ~ ( 3 - e_{ct}) / 3 $$
+Sostituendo l'espressione di :math:`s_{c} (y)` e risolvendo l'integrale definito, si ottiene il coefficiente di riempimento in funzione di :math:`e_{ct}`:
 
 .. math::
     :label: R5
