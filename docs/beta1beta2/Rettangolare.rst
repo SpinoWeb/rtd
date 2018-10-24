@@ -1,8 +1,8 @@
 .. _Rettangolare:
 
-**************************
+********************
 Sezione Rettangolare
-**************************
+********************
 
 Il legame costitutivo per il calcestruzzo in compressione è generato mediante l'impiego di due curve distinte:
 * una parabolica sino al raggiungimento del massimo valore di resistenza :math:`f_{c0}` e quindi di deformazione corrispondente :math:`\varepsilon_{c0}`;
