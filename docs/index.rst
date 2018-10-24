@@ -12,7 +12,7 @@ MathML, and AsciiMath notation that works in all modern browsers.
     What is MathJax? <mathjax>
     
 .. toctree::
-    :caption: Coefficienti beta 1 e beta 2
+    :caption: Coefficienti :math: \beta_1 e :math: \beta_2
     :maxdepth: 2
     
     Beta 1 Beta 2 <beta1beta2/index>
