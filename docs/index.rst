@@ -9,7 +9,7 @@ Calcolazioni è...
     :caption: Basic Usage
     :maxdepth: 1
 
-    What is MathJax? <mathjax>
+    Cos'è Calcolazioni? <calcolazioni>
     
 .. toctree::
     :caption: Coefficienti beta
