@@ -45,7 +45,15 @@ L'espressione della tensione del calcestruzzo adimensionalizzata diventa:
 .. math::
     :label: R3
 
-    s_c (y) = 2 ~ \Bigl[e_{ct} ~ \frac{y}{x} \Bigr] - \Bigl[e_{ct} ~ \frac{y}{x} \Bigr]^2
+    s_c (y) = 2 ~ \Bigl( e_{ct} ~ \frac{y}{x} \Bigr) - \Bigl( e_{ct} ~ \frac{y}{x} \Bigr)^2
+    
+Il coefficiente di riempimento :math:`\beta_{1}` è quindi definito come il rapporto tra il diagramma effettivo delle tensioni e quello rettangolare. Quidni, si ricava come segue:
+
+.. math::
+    :label: R4
+
+    \beta_1 =
+    \frac{1}{x} \int_0^x s_c(y) \,dy
 
 
 
