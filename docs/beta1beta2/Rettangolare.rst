@@ -78,7 +78,7 @@ Sostituendo la :eq:`R3` nella :eq:`R6` e risolvendo gli integrali definiti, si o
     :label: R7
 
     \beta_2 =
-    1 - y_G / x =
+    1 - \frac{y_G} {x} =
     \frac{ e_{ct} - 4 } { 4 ~ ( e_{ct} - 3) }
 
 b) :math:`\varepsilon_{ct} / \varepsilon_{c0} > 1`
