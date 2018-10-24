@@ -21,7 +21,7 @@ Indicando con:
 l'equazione della parabola di Hognestad si scrive:
 
 .. math::
-    :label: l1
+    :label: R1
 
     \frac{ \sigma_c (\varepsilon_c) }{ f_{c0} } =
     2 ~ \Bigl( \frac{\varepsilon_c }{ \varepsilon_{c0} } \Bigr) -
@@ -32,8 +32,19 @@ Introducendo i seguenti termini adimensionali di tensione e deformazione:
 l'equazione adimensionale del ramo di parabola diventa:
 
 .. math::
-    :label: l2
+    :label: R2
 
     s_c (e_c) = 2 ~ e_c - e_c^2
 
-You can add a link to equations like the one above :eq:`l2` by using ``:eq:``.
+You can add a link to equations like the one above :eq:`R1` by using ``:eq:``.
+
+Al fine di esprimere la tensione in funzione della distanza dall'asse neutro :math:`(y)`, si opera una trasformazione di variabili. Indicando con :math:`e_{ct}` la deformazione di compressione adimensionalizzata della fibra di bordo, si pone: :math:`e_c (y) = e_{ct} ~ (y / x)`.
+
+L'espressione della tensione del calcestruzzo adimensionalizzata diventa: :math:`s_c (y) = 2 ~ [e_{ct} ~ (y / x)] - [e_{ct} ~ (y / x)]^2`
+
+
+
+
+
+
+
