@@ -45,7 +45,7 @@ L'espressione della tensione del calcestruzzo adimensionalizzata diventa:
 .. math::
     :label: R3
 
-    s_c (y) = 2 ~ [e_{ct} ~ \fracyx] - [e_{ct} ~ \fracyx]^2
+    s_c (y) = 2 ~ [e_{ct} ~ \frac{y}{x}] - [e_{ct} ~ \frac{y}{x}]^2
 
 
 
