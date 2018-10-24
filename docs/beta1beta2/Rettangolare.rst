@@ -36,18 +36,16 @@ l'equazione adimensionale del ramo di parabola diventa:
 
     s_c (e_c) = 2 ~ e_c - e_c^2
 
-You can add a link to equations like the one above :eq:`R1` by using ``:eq:``.
-
 Al fine di esprimere la tensione in funzione della distanza dall'asse neutro :math:`(y)`, si opera una trasformazione di variabili. Indicando con :math:`e_{ct}` la deformazione di compressione adimensionalizzata della fibra di bordo, si pone: :math:`e_c (y) = e_{ct} ~ (y / x)`.
 
-L'espressione della tensione del calcestruzzo adimensionalizzata diventa:
+La :eq:`R2` diventa:
 
 .. math::
     :label: R3
 
     s_c (y) = 2 ~ \Bigl( e_{ct} ~ \frac{y}{x} \Bigr) - \Bigl( e_{ct} ~ \frac{y}{x} \Bigr)^2
     
-Il coefficiente di riempimento :math:`\beta_{1}` è quindi definito come il rapporto tra il diagramma effettivo delle tensioni e quello rettangolare. Quidni, si ricava come segue:
+Il coefficiente di riempimento :math:`\beta_{1}` è quindi definito come il rapporto tra il diagramma effettivo delle tensioni e quello rettangolare. Per cui si ricava come segue:
 
 .. math::
     :label: R4
@@ -55,7 +53,7 @@ Il coefficiente di riempimento :math:`\beta_{1}` è quindi definito come il rapp
     \beta_1 =
     \frac{1}{x} \int_0^x s_c(y) \,dy
     
-Sostituendo l'espressione di :math:`s_{c} (y)` e risolvendo l'integrale definito, si ottiene il coefficiente di riempimento in funzione di :math:`e_{ct}`:
+Sostituendo la :eq:`R3` nella :eq:`R4` e risolvendo l'integrale definito, si ottiene il coefficiente di riempimento in funzione di :math:`e_{ct}`:
 
 .. math::
     :label: R5
@@ -74,7 +72,7 @@ essendo :math:`y_G / x` l'ascissa del baricentro del diagramma delle tensioni, a
     \frac{1}{x}
     \frac{ \int_0^x s_c(y) y \,dy }{ \int_0^x s_c(y) \,dy }
     
-Sostituendo anche qui l'espressione di :math:`s_{c} (y)` e risolvendo gli integrali definiti, si ottiene l'espressione di :math:`y_G / x` la quale, a sua volta, può essere inserita in quella del coefficiente :math:`\beta_{2}`, ottenendo:
+Sostituendo la :eq:`R3` nella :eq:`R6` e risolvendo gli integrali definiti, si ottiene l'espressione di :math:`y_G / x` la quale, a sua volta, può essere inserita in quella del coefficiente :math:`\beta_{2}`, ottenendo:
 
 .. math::
     :label: R7
