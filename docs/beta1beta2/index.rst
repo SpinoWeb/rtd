@@ -1,14 +1,16 @@
+############
 Introduzione
-============
+############
 
 Calcolo del coefficiente di riempimento :math:`\beta_{1}` e del coefficiente :math:`\beta_{2}` per sezioni in calcestruzzo
 
-
-Contenuti
-=================
+#################
+Upgrading MathJax
+#################
 
 .. toctree::
-   :maxdepth: 2
+    :name: Coefficienti Beta1 e Beta2
+    :maxdepth: 1
 
-   Rettangolare
-   T
+    Sezione Rettangolare <rettangolare>
+    Sezione a T <T>
