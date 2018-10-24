@@ -15,5 +15,5 @@ Calcolazioni è...
     :caption: Sezioni in c.a.
     :maxdepth: 2
     
-    Sezioni <beta1beta2/index>
+    Coefficienti :math:`\beta_{1}` e :math:`\beta_{2}` <beta1beta2/index>
    
