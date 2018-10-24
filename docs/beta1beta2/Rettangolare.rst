@@ -54,6 +54,25 @@ Il coefficiente di riempimento :math:`\beta_{1}` è quindi definito come il rapp
 
     \beta_1 =
     \frac{1}{x} \int_0^x s_c(y) \,dy
+    
+Sostituendo l'espressione di :math:`s_{c} (y)` e risolvendo l'integrale definito, si ottiene il coefficiente di riempimento in funzione di :math:`e_{ct}`: $$ \beta_1 = e_{ct} ~ ( 3 - e_{ct}) / 3 $$
+
+.. math::
+    :label: R5
+
+    \beta_1 =
+    e_{ct} ~ ( 3 - e_{ct} ) / 3
+    
+Il coefficiente :math:`\beta_{2}` consente di valutare l'esatta posizione del baricentro del diagramma delle tensioni.
+Si calcola come :math:`\beta_2 = 1 - y_G / x`
+essendo :math:`y_G / x` l'ascissa del baricentro del diagramma delle tensioni, adimensionalizzata rispetto alla posizione dell'asse neutro. Quest'ultima si calcola come segue:
+
+.. math::
+    :label: R6
+
+    \frac{y_G}{x} = 
+    \frac{1}{x}
+    \frac{ \int_0^x s_c(y) y \,dy }{ \int_0^x s_c(y) \,dy }
 
 
 
