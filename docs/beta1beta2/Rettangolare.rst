@@ -23,9 +23,9 @@ l'equazione della parabola di Hognestad si scrive:
 .. math::
     :label: l1
 
-    \sigma_c (\varepsilon_c) / f_{c0} =
-    2 ~ ( \varepsilon_c / \varepsilon_{c0} ) - 
-    ( \varepsilon_c / \varepsilon_{c0} )^2
+    \frac{ \sigma_c (\varepsilon_c) }{ f_{c0} } =
+    2 ~ ( \frac{\varepsilon_c }{ \varepsilon_{c0} } ) - 
+    ( \frac{\varepsilon_c }{ \varepsilon_{c0} } )^2
 
 Introducendo i seguenti termini adimensionali di tensione e deformazione:
 :math:`s_c = \sigma_c / f_{c0}` e :math:`e_c = \varepsilon_c / \varepsilon_{c0}`,
