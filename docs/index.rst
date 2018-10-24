@@ -12,7 +12,7 @@ Calcolazioni è...
     Cos'è Calcolazioni? <calcolazioni>
     
 .. toctree::
-    :caption: Coefficienti beta
+    :caption: Sezioni in c.a.
     :maxdepth: 2
     
     Sezioni <beta1beta2/index>
