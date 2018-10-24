@@ -1,12 +1,19 @@
+############
 Calcolazioni
-*********************
+############
 
-Calcolazioni varie
-
-Contenuti
-=================
+MathJax is an open-source JavaScript display engine for LaTeX,
+MathML, and AsciiMath notation that works in all modern browsers.
 
 .. toctree::
-   :maxdepth: 3
+    :caption: Basic Usage
+    :maxdepth: 1
 
-   beta1beta2/index
+    What is MathJax? <mathjax>
+    
+.. toctree::
+    :caption: Upgrading MathJax
+    :maxdepth: 2
+    
+    Beta 1 Beta 2 <beta1beta2/index>
+   
