@@ -12,5 +12,5 @@ Upgrading MathJax
     :name: Coefficienti Beta1 e Beta2
     :maxdepth: 1
 
-    Sezione Rettangolare <rettangolare>
+    Sezione Rettangolare <Rettangolare>
     Sezione a T <T>
