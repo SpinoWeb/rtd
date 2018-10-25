@@ -87,7 +87,6 @@ Sostituendo la :eq:`R3` nella :eq:`R6` e risolvendo gli integrali definiti, si o
 b) :math:`\varepsilon_{ct} / \varepsilon_{c0} > 1`
 
 .. image:: img/R2.png
-    :label: I2
 
 Il ramo di curva post-picco è assunto lineare sino al raggiungimento della deformazione ultima del calcestruzzo :math:`\varepsilon_{cu}`.
 Introducendo le variabili adimensionali relative alla deformazione ultima :math:`e_{cu} = \varepsilon_{cu} / \varepsilon_{c0}` ed alla relativa tensione :math:`s_{cu} = \sigma_{cu} / f_{c0}`, l'equazione del ramo lineare si scrive come segue:
@@ -100,7 +99,8 @@ Introducendo le variabili adimensionali relative alla deformazione ultima :math:
     1 - \Bigl( \frac{ s_{cu} - 1 } { e_{cu} - 1 } \Bigr) ~ ( 1 - e_{c} )
 
 L'area sottesa dalla curva delle tensioni risulta adesso composta da una porzione parabolica (Ap) e da una lineare (Al).
-E' necessario calcolare i due segmenti AB e BC in figura :eq:`I2`.
+E' necessario calcolare i due segmenti AB e BC in figura.
+Assunta la deformazione della fibra maggiormente compressa, si calcolano la curvatura :math:`\chi =  e_{ct} / x` ed il segmento :math:`AB =  1 / \chi`.
 
 Nota la deformazione adimensionale della fibra di bordo :math:`e_{ct}`, la :eq:`R8` consente di calcolare la tensione adimensionale corrispondente :math:`s_{ct}`.
 
