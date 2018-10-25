@@ -127,14 +127,22 @@ Procedendo come per il caso a), si valuta il coefficiente :math:`\beta_2`:
     e_{ct} ~ ( 6 ~ s_{cu} - 4 ~ e_{cu} - 2 ) ] }{ 2 ~ e_{ct} [ 3 ~ e^{2}_{ct} ~ ( s_{cu} - 1 ) +
     6 ~ e_{ct} ~ ( e_{cu} - s_{cu} ) +
     3 ~ s_{cu} - 2 ~ e_{cu} - 1 ]  }
+    
+Nel caso di legame costitutivo del tipo parabola - rettangolo, le relazioni :eq:`R9` e :eq:`R10` si semplificano ponendo :math:`s_{cu} = 1`:
+
+.. math::
+    :label: R9b
+
+    \beta_1 = 1 - \frac{ 1 } { 3 ~ e_{ct} }
+    
+.. math::
+    :label: R10b
+
+    \beta_2 =
+    \frac{ 6 ~ e^{2}_{ct} - 4 ~ e_{ct} + 1 }{ 12 ~ e^{2}_{ct} - 4 ~ e_{ct} }
 
 Nella figura seguente sono riportati gli andamenti dei coefficienti :math:`\beta_{1}` e :math:`\beta_{2}` in funzione della deformazione della fibra di bordo :math:`e_{ct}` e per diversi valori di :math:`s_{cu}`.
 
 .. image:: img/beta1beta2.png
 
 
-
-
-
-
- 
