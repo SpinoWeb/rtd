@@ -98,11 +98,14 @@ Introducendo le variabili adimensionali relative alla deformazione ultima :math:
     1 - m ~ ( 1 - e_{c} ) =
     1 - \Bigl( \frac{ s_{cu} - 1 } { e_{cu} - 1 } \Bigr) ~ ( 1 - e_{c} )
 
+Nota la deformazione adimensionale della fibra di bordo :math:`e_{ct}`, la :eq:`R8` consente di calcolare la tensione adimensionale corrispondente :math:`s_{ct}`.
+
 L'area sottesa dalla curva delle tensioni risulta adesso composta da una porzione parabolica (:math:`A_{p}`) e da una lineare (:math:`A_{l}`).
 E' necessario calcolare i due segmenti  :math:`AB` e  :math:`BC` in figura.
-Assunta la deformazione della fibra maggiormente compressa, si calcolano la curvatura :math:`\chi =  e_{ct} / x` ed il segmento :math:`AB =  1 / \chi`. Conseguentemente, si ottiene anche il segmento :math:`BC =  x - AB`.
+In funxione della deformazione della fibra maggiormente compressa, si calcolano la curvatura :math:`\chi =  e_{ct} / x` ed il segmento :math:`AB =  1 / \chi`. Conseguentemente, si ottiene anche il segmento :math:`BC =  x - AB`.
+A questo punto è possibile calcolare le aree :math:`A_{p} = 2 AB / 3` e :math:`A_{l} = ( 1 + s_{ct} ) BC / 2`.
 
-Nota la deformazione adimensionale della fibra di bordo :math:`e_{ct}`, la :eq:`R8` consente di calcolare la tensione adimensionale corrispondente :math:`s_{ct}`.
+
 
 .. image:: img/beta1beta2.png
 
