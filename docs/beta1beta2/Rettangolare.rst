@@ -86,6 +86,9 @@ b) :math:`\varepsilon_{ct} / \varepsilon_{c0} > 1`
 .. image:: img/R2.png
 
 
+.. image:: img/beta1beta2.png
+
+
 
 
 
