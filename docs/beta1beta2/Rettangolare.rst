@@ -111,8 +111,9 @@ Nota l'area sottesa dal diagramma di tensione, si calcola il coefficiente di rie
     :label: R9a
 
     \beta_1 = \frac{ A_{p} + A_{l} } {x} = 
-    \frac{ 3 ~ e^{2}_{ct} ( 1 - s_{ct} )  } { 6 e_{ct} ( 1 - e_{cu} )  } =
-    1 - \Bigl( \frac{ s_{cu} - 1 } { e_{cu} - 1 } \Bigr) ~ ( 1 - e_{c} )
+    \frac{ 3 ~ e^{2}_{ct} ( 1 - s_{cu} ) +
+    6 e_{ct} ( s_{cu} - e_{cu} ) +
+    ( 2 ~ e_{cu} - 3 ~ s_{cu} ) } { 6 e_{ct} ( 1 - e_{cu} )  }
     
 
 
