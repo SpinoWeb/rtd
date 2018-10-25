@@ -126,9 +126,6 @@ Nota l'area sottesa dal diagramma di tensione, si calcola il coefficiente di rie
     6 ~ e_{ct} ~ ( e_{cu} - s_{cu} ) +
     3 ~ s_{cu} - 2 ~ e_{cu} - 1 ]  }
 
-beta2: (1 + ecu + 6*ec^2*(ecu - fsu) + 2*ec^3*(-1 + fsu) - 2*fsu + ec*(-2 - 4*ecu + 6*fsu))/(2*ec*(-1 - 2*ecu + 6*ec*(ecu - fsu) + 3*ec^2*(-1 + fsu) + 3*fsu))
-    
-
 Nella figura seguente sono riportati gli andamenti dei coefficienti :math:`\beta_{1}` e :math:`\beta_{2}` in funzione della deformazione della fibra di bordo :math:`e_{ct}` e per diversi valori di :math:`s_{cu}`.
 
 .. image:: img/beta1beta2.png
