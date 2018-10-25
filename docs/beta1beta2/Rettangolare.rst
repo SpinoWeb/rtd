@@ -108,7 +108,7 @@ A questo punto è possibile calcolare le aree :math:`A_{p} = 2 ~ AB / 3` e :math
 Nota l'area sottesa dal diagramma di tensione, si calcola il coefficiente di riempimento:
 
 .. math::
-    :label: R9a
+    :label: R9
 
     \beta_1 = \frac{ A_{p} + A_{l} } {x} = 
     \frac{ 3 ~ e^{2}_{ct} ( 1 - s_{cu} ) +
@@ -116,6 +116,7 @@ Nota l'area sottesa dal diagramma di tensione, si calcola il coefficiente di rie
     ( 2 ~ e_{cu} - 3 ~ s_{cu} ) } { 6 ~ e_{ct} ( 1 - e_{cu} )  }
     
 
+Nella figura seguente sono riportati gli andamenti dei coefficienti :math:`\beta_{1}` e :math:`\beta_{2}` in funzione della deformazione della fibra di bordo :math:`\e_{ct}`.
 
 .. image:: img/beta1beta2.png
 
