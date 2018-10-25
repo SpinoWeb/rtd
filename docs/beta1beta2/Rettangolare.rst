@@ -122,7 +122,9 @@ Nota l'area sottesa dal diagramma di tensione, si calcola il coefficiente di rie
     \beta_2 =
     \frac{ [ 1 + e_{cu} + 6 ~ e^{2}_{ct} ~ ( e_{cu} - s_{cu} ) +
     2 ~ e^{3}_{ct} ~ ( s_{cu} - 1 ) - 2 ~ s_{cu} + 
-    e_{ct} ~ ( 6 ~ s_{cu} - 4 ~ e_{cu} - 2 ) ] }{ 2 ~ e_{ct} [ - 1 - 2 ~ e_{cu} + 6 ~ e_{ct} ~ ( e_{cu} - s_{cu} ) + 3 ~ e^{2}_{ct} ~ ( s_{cu} - 1 )  + 3 ~ s_{cu} ]  }
+    e_{ct} ~ ( 6 ~ s_{cu} - 4 ~ e_{cu} - 2 ) ] }{ 2 ~ e_{ct} [ 3 ~ e^{2}_{ct} ~ ( s_{cu} - 1 ) +
+    6 ~ e_{ct} ~ ( e_{cu} - s_{cu} ) +
+    3 ~ s_{cu} - 2 ~ e_{cu} - 1 ]  }
 
 beta2: (1 + ecu + 6*ec^2*(ecu - fsu) + 2*ec^3*(-1 + fsu) - 2*fsu + ec*(-2 - 4*ecu + 6*fsu))/(2*ec*(-1 - 2*ecu + 6*ec*(ecu - fsu) + 3*ec^2*(-1 + fsu) + 3*fsu))
     
