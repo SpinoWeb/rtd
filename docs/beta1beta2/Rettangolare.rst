@@ -95,9 +95,8 @@ Introducendo le variabili adimensionali relative alla deformazione ultima :math:
     :label: R8
 
     s_c( e_{c} ) =
-    m ~ e_{ct} + q =
-    \Bigl( \frac{ s_{cu} - 1 } { e_{cu} - 1 } \Bigr) ~ e_{c} +
-    \Bigl[ 1 - \Bigl( \frac{ s_{cu} - 1 } { e_{cu} - 1 } \Bigr) \Bigr]
+    1 - m ~ ( 1 - e_{c} ) =
+    1 - \Bigl( \frac{ s_{cu} - 1 } { e_{cu} - 1 } \Bigr) ~ ( 1 - e_{c} )
 
 
 .. image:: img/beta1beta2.png
