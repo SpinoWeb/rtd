@@ -103,6 +103,7 @@ Nota la deformazione adimensionale della fibra di bordo (:math:`e_{ct}`), la :eq
 L'area sottesa dalla curva delle tensioni risulta adesso composta da una porzione parabolica (:math:`A_{p}`) e da una lineare (:math:`A_{l}`).
 E' necessario calcolare i due segmenti  :math:`AB` e  :math:`BC` in figura.
 In funxione della deformazione della fibra maggiormente compressa, si calcolano la curvatura :math:`\chi =  e_{ct} / x` ed il segmento :math:`AB =  1 / \chi = x / e_{ct}`. Conseguentemente, si ottiene anche il segmento :math:`BC =  x - AB = x ~ (1  - 1 / e_{ct} )`.
+
 A questo punto è possibile calcolare le due aree :math:`A_{p} = ( 2 ~ x ) / ( 3 ~ e_{ct} )` e :math:`A_{l} = ( 1 + s_{ct} ) ~ BC / 2 = ( 1 + s_{ct} ) ~ x ~ (1  - 1 / e_{ct} ) / 2`.
 
 Nota l'area sottesa dal diagramma di tensione, si calcola il coefficiente di riempimento:
