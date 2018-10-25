@@ -116,6 +116,7 @@ Nota l'area sottesa dal diagramma di tensione, si calcola il coefficiente di rie
     6 ~ e_{ct} ( s_{cu} - e_{cu} ) +
     ( 2 ~ e_{cu} - 3 ~ s_{cu} ) } { 6 ~ e_{ct} ( 1 - e_{cu} )  }
     
+Procedendo come per il caso a), si valuta il coefficiente :math:`\beta_2`:
 
 .. math::
     :label: R10
