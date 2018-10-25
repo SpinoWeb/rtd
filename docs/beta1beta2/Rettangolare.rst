@@ -59,7 +59,7 @@ Sostituendo la :eq:`R3` nella :eq:`R4` e risolvendo l'integrale definito, si ott
     :label: R5
 
     \beta_1 =
-    e_{ct} ~ ( 3 - e_{ct} ) / 3
+    \frac{ e_{ct} ~ ( 3 - e_{ct} ) } { 3 }
     
 Il coefficiente :math:`\beta_{2}` consente di valutare l'esatta posizione del baricentro del diagramma delle tensioni.
 Si calcola come :math:`\beta_2 = 1 - y_G / x`
