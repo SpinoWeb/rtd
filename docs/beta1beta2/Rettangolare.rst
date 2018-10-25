@@ -5,8 +5,11 @@ Sezione Rettangolare
 ********************
 
 Il legame costitutivo per il calcestruzzo in compressione è generato mediante l'impiego di due curve distinte:
+
 * una parabolica sino al raggiungimento del massimo valore di resistenza :math:`f_{c0}` e quindi di deformazione corrispondente :math:`\varepsilon_{c0}`;
-* ed una lineare sino al raggiungimento del valore di tensione ultima del materiale :math:`f_{cu} \leq f_{c0}` e quindi di deformazione corrispondente :math:`\varepsilon_{cu}`.
+
+* una lineare sino al raggiungimento del valore di tensione ultima del materiale :math:`f_{cu} \leq f_{c0}` e quindi di deformazione corrispondente :math:`\varepsilon_{cu}`.
+
 Pertanto, nel seguito, si distingueranno i due casi a) e b).
 
 a) :math:`\varepsilon_{ct} / \varepsilon_{c0} \leq 1`
@@ -84,6 +87,17 @@ Sostituendo la :eq:`R3` nella :eq:`R6` e risolvendo gli integrali definiti, si o
 b) :math:`\varepsilon_{ct} / \varepsilon_{c0} > 1`
 
 .. image:: img/R2.png
+
+Il ramo di curva post-picco è assunto lineare sino al raggiungimento della deformazione ultima del calcestruzzo :math:`\varepsilon_{cu}`.
+Introducendo le variabili adimensionali relative alla deformazione ultima :math:`e_{cu} = \varepsilon_{cu} / \varepsilon_{c0}` ed alla relativa tensione :math:`s_{cu} = \sigma_{cu} / f_{c0}`, l'equazione del ramo lineare si scrive come segue:
+
+.. math::
+    :label: R8
+
+    s_c( e_{ct} ) =
+    m ~ e_{ct} + q =
+    \frac{ s_{cu} - 1 } { e_{cu} - 1 } ~ e_{ct} +
+    ( 1 - \frac{ s_{cu} - 1 } { e_{cu} - 1 } )
 
 
 .. image:: img/beta1beta2.png
