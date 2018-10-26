@@ -95,7 +95,6 @@ Introducendo le variabili adimensionali relative alla deformazione ultima :math:
     :label: R8
 
     s_c( e_{c} ) =
-    1 - m ~ ( 1 - e_{c} ) =
     1 - \Bigl( \frac{ s_{cu} - 1 } { e_{cu} - 1 } \Bigr) ~ ( 1 - e_{c} )
 
 Nota la deformazione adimensionale della fibra di bordo (:math:`e_{ct}`), la :eq:`R8` consente di calcolare la tensione adimensionale corrispondente (:math:`s_{ct}`).
